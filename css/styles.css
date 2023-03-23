@@ -11,6 +11,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
@@ -35,8 +36,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: ;
-
+    margin-bottom: 18px;
+    margin-top: 26px;
 }
 
 .header-list {
@@ -64,10 +65,14 @@ img {
     height: 831px;
     max-width: 100%;
 
-    background-image: url(../images/Frame.jpg);
+    background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 0px 0px 0px 290px;
+
+    display: flex;
+    align-items: center;
  }
 
 .hero-title {
@@ -78,7 +83,6 @@ img {
    color: #292f36;
    font-size: 80px;
    margin-bottom: 19px;
-   padding-top: 195px;
 }
 
 .hero-text {
@@ -90,9 +94,86 @@ margin-bottom: 35px;
 }
 
 .hero-buttom {
-border: 2px solid #292f36;
-border-radius: 18px;
-background-color: #292f36;
+    width: 207px;
+    height: 71px;
+
+    background-image: url(../images/button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border: 2px solid #292f36;
+    border-radius: 18px;
+    padding: 22px 67px 22px 34px;
+
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* Features */
+
+.features-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-list-item {
+
+    display: flex;
+    justify-content: ;
+
+}
+
+.features-title {
+    font-family:"DM Serif Display";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+   text-align: center;   
+   letter-spacing: 0.22px;
+   color: #292f36;
+    }
+
+.features-text {
+    width: 317px;
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4d5053;
+    margin-bottom: 48px;
+}
+
+.features-link {
+display: flex;
+align-items: center;
+font-family: Jost;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.36px;
+color: #4d5053;
+}
+
+.features-link::after {
+    content: "";
+    width: 24px;
+    height: 17px;
+    background-image: url(../images/arrow.png);
+    margin-left: ;
 }
 
 
