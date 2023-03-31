@@ -25,8 +25,8 @@ img {
 }
 
 .container {
-    width: 1200px;
-    padding: 120px;
+    width: 1440px;
+    padding: 0 120px;
     margin: 0 auto;
 }
 
@@ -119,8 +119,6 @@ margin-bottom: 35px;
 .features-section{
     margin-top: 100px;
     margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
 }
 
 .features-list {
@@ -132,8 +130,8 @@ margin-bottom: 35px;
 .features-list-item {
 
     display: flex;
-    justify-content: ;
-
+    flex-direction: column;
+    align-items: center;
 }
 
 .features-title {
@@ -173,9 +171,169 @@ color: #4d5053;
     width: 24px;
     height: 17px;
     background-image: url(../images/arrow.png);
-    margin-left: ;
+    margin-left: 6px;
 }
 
+/* Design-section */
+
+.design-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.design-title {
+    width: 450px;
+    font-family: DH Serif Display;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 65px;
+    letter-spacing: 0.33;
+    color: #292f36;
+    margin-bottom: 42px;
+}
+
+.design-text {
+    width: 151px;
+
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.design-number {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #292f36;
+}
+
+.design-buttom {
+    width: 263px;
+    height: 71px;
+
+    background-image: url(../images/button2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border: #292f36;
+    border-radius: 18px;
+    padding: 22px 67px 22px 34px;
+
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    font-weight: 400;
+
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+.reviews-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-list {
+
+}
+
+.reviews-list-item {
+    color: white;
+    width: 354px;
+    height: 287px;
+    border-radius: 30px;
+}
+
+.reviews-image {
+    
+}
+
+.reviews-title {
+    padding-top: 103px;
+    padding-bottom: 46px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+
+    color: #292f36;
+}
+
+.reviews-place {
+
+}
+
+.reviews-text {
+
+}
+
+.reviews-user {
+    display: flex;
+    align-items: center;
+}
+
+/* recept project */
+
+/* statistics-section */
+
+.stats-section {
+    height: 475px;
+    background-color: #F4F0EC;
+    padding: 140px 0;    
+}
+
+.stats-list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.stats-item {
+ height: 195px;
+ width: 288px;
+}
+
+.stats-item:not(:last-child) {
+    border-right: 1px solid #CDA274;
+    margin-right: 16px;
+}
+
+.stats-number {
+font-family: 'DM Serif Display';
+font-weight: 400;
+font-size: 85px;
+line-height: 128px;
+text-align: center;
+letter-spacing: 1.7px;
+color: #CDA274;
+}
+
+.stats-text {
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #4D5053;
+}
 
 
 
