@@ -1,5 +1,5 @@
 body {
-    font-family: Jost, sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 400;
     color: #4d5053;
     font-size: 22px;
@@ -239,53 +239,65 @@ color: #4d5053;
     margin-bottom: 50px;
 }
 
+/* Reviews */
 
-
-.reviews-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.brand-list {
-
-}
-
-.reviews-list-item {
-    color: white;
-    width: 354px;
-    height: 287px;
-    border-radius: 30px;
-}
-
-.reviews-image {
-    
+.reviews-section {
+    width: 1200px;
+    height: 675px;
+    background-color: #F4F0EC;
+    border-radius: 70px;
+    margin-bottom: 140px;
 }
 
 .reviews-title {
-    padding-top: 103px;
-    padding-bottom: 46px;
     font-family: 'DM Serif Display';
-    font-style: normal;
     font-weight: 400;
     font-size: 45px;
-    line-height: 58px;
+    line-height: 58px;   
     text-align: center;
     letter-spacing: 0.22px;
+    color: #292F36;
 
-    color: #292f36;
+    padding-top: 103px;
+    padding-bottom: 46px;
 }
 
-.reviews-place {
-
+.reviews-list {
+    display: flex;
+    justify-content: center;
 }
 
-.reviews-text {
+.reviews-list-item {
+    width: 354px;
+    height: 287px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 50px 30px 45px 35px;
+}
 
+.reviews-list-item:not(:last-child) {
+    margin-right: 17px;
+}
+
+.reviews-img {
+    width: 77px;
+    height: 77px;
+    margin-right: 20px;
 }
 
 .reviews-user {
     display: flex;
     align-items: center;
+    margin-bottom: 25px;
+}
+
+.reviews-name {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
 }
 
 /* recept project */
