@@ -300,7 +300,53 @@ color: #4d5053;
     color: #292F36;
 }
 
+/* brands */
+
+.brands-section {
+margin-bottom: 100px;
+}
+.brands-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands-list-items {
+}
+
+.brands-logo {
+
+}
+
+
 /* recept project */
+
+.container {
+}
+.project-section {
+}
+.project-section-title {
+}
+.project-section-text {
+}
+.project-section-list {
+}
+.project-section-list-item {
+}
+.project-item-header {
+}
+.project-item-content {
+}
+.project-item-info {
+}
+.project-item-text {
+}
+.project-item-category {
+}
+.project-item-action {
+}
+.project-button {
+}
 
 /* statistics-section */
 
@@ -346,6 +392,92 @@ text-align: center;
 letter-spacing: 0.22px;
 color: #4D5053;
 }
+
+/* Recent-blogs */
+
+/* Contact-section */
+
+.contact-section {
+    background-color: #292F36;
+    border-radius: 70px;
+    height: 414px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.contact-subtitle {
+font-family: 'DM Serif Display';
+font-weight: 400;
+font-size: 50px;
+line-height: 75px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #FFFFFF;
+margin-bottom: 9px;
+margin-top: 100px;
+}
+
+.contact-text {
+font-family: 'Jost';
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+
+text-align: center;
+letter-spacing: 0.22px;
+color: #FFFFFF;
+margin-bottom: 31px;
+}
+
+.contact-button {
+
+}
+
+/* Footer */
+
+.footer-section {
+}
+.footer-logo {
+    width: 394px;
+}
+.footer-text {
+}
+
+.footer-list-item {
+}
+.footer-icon {
+}
+.footer-pages {
+    width: 210px;
+}
+.footer-item {
+font-family: 'Jost';
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.22px;
+color: #4D5053;
+}
+.footer-explore {
+    margin-bottom: 30px;
+}
+.footer-subtitle {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 21px;
+}
+.footer-contact {
+    width: 337px;
+}
+
 
 
 
