@@ -211,7 +211,7 @@ color: #4d5053;
     color: #292f36;
 }
 
-.design-buttom {
+.design-link {
     width: 263px;
     height: 71px;
 
@@ -311,41 +311,64 @@ margin-bottom: 100px;
     align-items: center;
 }
 
-.brands-list-items {
-}
-
-.brands-logo {
-
-}
-
-
 /* recept project */
 
-.container {
-}
 .project-section {
+    margin-bottom: 80px;
 }
+
 .project-section-title {
+font-family: 'DM Serif Display';
+font-weight: 400;
+font-size: 47px;
+line-height: 62px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #292F36;
 }
+
 .project-section-text {
+font-family: 'Jost';
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #4D5053;
+margin-bottom: 70px;
 }
+
 .project-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 20px;
 }
+
 .project-section-list-item {
+    flex-basis: calc((100% - 20px) / 2);
 }
-.project-item-header {
+    .project-item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.project-item-content {
-}
-.project-item-info {
-}
+
 .project-item-text {
+font-family: 'DM Serif Display';
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: 0.22px;
+color: #292F36;
+margin-top: 24px;
 }
+
 .project-item-category {
-}
-.project-item-action {
-}
-.project-button {
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.22px;
+color: #4D5053;
 }
 
 /* statistics-section */
@@ -395,6 +418,44 @@ color: #4D5053;
 
 /* Recent-blogs */
 
+.blogs-title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.blogs-text {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;   
+    color: #4D5053;
+}
+
+.blogs-list-title {
+font-family: 'DM Serif Display';
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+letter-spacing: 0.5px;
+color: #292F36;
+}
+
+.blogs-list-text {
+font-family: 'Jost';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.22px;
+color: #4D5053;
+}
+
 /* Contact-section */
 
 .contact-section {
@@ -433,49 +494,111 @@ margin-bottom: 31px;
 }
 
 .contact-button {
+   width: 241px;
+   height: 71px;
+   background-color: #CDA274;
+   border: none;
+   box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+   border-radius: 18px;
 
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #FFFFFF;
+margin-bottom: 9px;
+padding-top: 100px;
 }
 
 /* Footer */
 
 .footer-section {
-}
-.footer-logo {
-    width: 394px;
-}
-.footer-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
-.footer-list-item {
+.footer-logo {
+    width: 393px;
 }
-.footer-icon {
+
+.footer-logo-text {
+    width: 326px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.22px;
+color: #4D5053;
+margin-top: 15px;
+margin-bottom: 30px;
 }
+.footer-logo-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo-social-list:not(:last-child) {
+    margin-right: 40px;
+}
+
 .footer-pages {
     width: 210px;
 }
+
+.footer-subtitle {
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+letter-spacing: 0.22px;
+color: #292F36;
+margin-bottom: 21px;
+}
+
 .footer-item {
 font-family: 'Jost';
+font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 33px;
 letter-spacing: 0.22px;
 color: #4D5053;
 }
-.footer-explore {
+
+.footer-itemt:not(:last-child) {
     margin-bottom: 30px;
 }
-.footer-subtitle {
-    font-family: 'DM Serif Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 38px;
-    letter-spacing: 0.22px;
-    color: #292F36;
-    margin-bottom: 21px;
+
+.footer-explore {
+    width: 210px;
 }
+
 .footer-contact {
     width: 337px;
+}
+
+.footer-copywright {
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-copywright-text {
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #4D5053;
+padding: 35px 0;
+}
+
+.footer-copywright-text-span {
+    color: #cda274;
 }
 
 
